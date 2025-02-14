@@ -3,7 +3,7 @@
 This is the frontend for the Accredian referral system. It is built using **React.js** and styled with **Material-UI/Tailwind CSS**.
 
 ## 🚀 Live Demo  
-🔗 **Frontend Live URL**: [https://your-netlify-project.netlify.app](https://your-netlify-project.netlify.app)
+🔗 **Frontend Live URL**: [https://classy-crostata-3d3986.netlify.app/](https://classy-crostata-3d3986.netlify.app/)
 
 ---
 
