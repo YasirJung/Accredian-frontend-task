@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+const API_BASE_URL = "https://accredian-backend-task-eigc.onrender.com";
+
 const LearnAndEarn = () => {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
@@ -22,7 +24,7 @@ const LearnAndEarn = () => {
     setSuccess("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/referrals", formData);
+      const response = await axios.post(`${API_BASE_URL}/api/referrals`, formData);
       setSuccess("Referral submitted successfully!");
       setFormData({ name: "", email: "", referralCode: "" });
       setShowModal(false);
